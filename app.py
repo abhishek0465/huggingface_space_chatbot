@@ -45,7 +45,7 @@ if groq_api_key:
         return result
 
     query = st.text_input("Ask Anything !!")
-    st.chat_message('user').write(query)
+    # st.chat_message('user').write(query)
 
     if st.button("Answer"):
         if query:
